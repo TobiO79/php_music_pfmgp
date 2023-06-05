@@ -1,0 +1,82 @@
+body {background-color: #505050;}
+th {
+	font-weight: bold;
+	color: yellow;
+}
+a:link {
+	text-decoration: none;
+	color: yellow;
+}
+a:visited {
+	text-decoration: none;
+	color: orange;
+}
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+a:active {
+	text-decoration: underline;
+	color: red;
+}
+a:focux {
+	text-decoration: blink;
+	color: red;
+}
+
+
+#container {
+	background: #000000;
+	overflow: hidden;
+}
+#header h1 {
+	font-weight: bold;
+}
+#header, #footer {
+	text-align: center;
+	background: #900000;
+	color: yellow;
+}
+#menubar {
+	color: yellow;
+}
+#menubar ul{
+	list-style-type: none;
+}
+#sidebar {
+	color: yellow;
+}
+#MainContent {
+	background: #202020;
+	color: white;
+}
+.Aufsteiger {
+	color: green;
+}
+.Absteiger {
+	color: red;
+}
+table, th, td {
+     border: 1px solid grey;
+  padding:5px;
+}
+.Platz, .Punkte{
+    width: 30px;
+}
+.Voting{
+    width:80px;
+}
+.Votingtabelle{
+    width:125%;
+    font-size:80%;
+}
+.Punktetabelle{
+    width:100%;
+}
+.sideform{
+	width:100px;
+	text-align:right;
+}
+.sidefield{
+	width:120px;
+}
